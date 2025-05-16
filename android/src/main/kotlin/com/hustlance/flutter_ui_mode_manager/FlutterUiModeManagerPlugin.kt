@@ -80,7 +80,7 @@ public class FlutterUiModeManagerPlugin: FlutterPlugin, MethodCallHandler, Activ
   }
 
   override fun onDetachedFromActivityForConfigChanges() {
-    TODO("Not yet implemented")
+    // No cleanup needed for config changes
   }
 
   override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
@@ -88,6 +88,6 @@ public class FlutterUiModeManagerPlugin: FlutterPlugin, MethodCallHandler, Activ
   }
 
   override fun onDetachedFromActivity() {
-    TODO("Not yet implemented")
+    // No cleanup needed when detaching from activity
   }
 }
